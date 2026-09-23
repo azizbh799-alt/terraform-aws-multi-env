@@ -1,0 +1,7 @@
+aws_region   = "eu-west-1"
+project_name = "myapp"
+environment  = "staging"
+my_ip_cidr   = "41.229.0.0/32" # remplace par ta vraie IP publique
+
+# Ne mets JAMAIS le mot de passe ici. Utilise plutôt :
+# export TF_VAR_db_password="ton_mot_de_passe_ici"
