@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AWS Multi-Environment Infrastructure — Terraform
 
 Infrastructure AWS complète (VPC, EC2 avec Auto Scaling, RDS MySQL) provisionnée avec Terraform,
@@ -104,3 +105,6 @@ terraform destroy
 - Pipeline CI/CD (GitHub Actions/GitLab) avec `terraform plan` automatique sur PR
 - Module EKS en remplacement/complément du module EC2
 - Intégration HashiCorp Vault ou AWS Secrets Manager pour `db_password`
+=======
+# terraform-aws-multi-env
+>>>>>>> d435c222f81f0e54ef69f1a8b27977e1ecd69d93
